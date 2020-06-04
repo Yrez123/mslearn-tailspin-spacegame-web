@@ -17,5 +17,5 @@ steps:
 - script: 'ls -l'
   displayName: 'List files'
 
-- script: 'docker images'
-  displayName: 'List Docker images'
+- script: 'hostname'
+  displayName: 'Show hostname'
