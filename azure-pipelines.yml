@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'Kubernetes agent'
+  name: 'Kubernetes agent'
 
 variables:
   buildConfiguration: 'Release'
