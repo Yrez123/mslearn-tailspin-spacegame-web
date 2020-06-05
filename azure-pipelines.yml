@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  name: 'Kubernetes agent'
+  name: 'Docker agent'
 
 variables:
   buildConfiguration: 'Release'
